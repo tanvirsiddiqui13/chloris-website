@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        yellow: { chloris: "#C88A12" },
+        bg: { chloris: "#FAFAF8" },
+      },
+      fontFamily: {
+        cormorant: ["var(--font-cormorant)", "Georgia", "serif"],
+        inter: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
     },
   },
