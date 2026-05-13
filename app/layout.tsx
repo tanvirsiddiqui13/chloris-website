@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "600"],
   style: ["normal", "italic"],
   variable: "--font-cormorant",
   display: "swap",
@@ -12,14 +12,14 @@ const cormorant = Cormorant_Garamond({
 
 const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "500"],
   variable: "--font-inter",
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Chloris — Vietnamese Specialty Coffee",
-  description:
-    "Single-origin specialty coffee from the Đà Lạt Plateau, Vietnam. Where the day gets its colour.",
+  title: "Chloris — Where the day gets its colour.",
+  description: "Not stronger. More alive. Specialty coffee from eternal spring.",
 };
 
 export default function RootLayout({
